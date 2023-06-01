@@ -1,5 +1,6 @@
 import streamlit as st
-scikit-learn
+
+import scikit-learn
 
 import pickle
 file1 = open("model.pkl",'rb') 
