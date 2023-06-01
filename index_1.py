@@ -1,5 +1,7 @@
 import streamlit as st
 
+import requirements_1
+
 import pickle
 file1 = open("model.pkl",'rb') 
 file2 = open("CountVector.pkl",'rb')
