@@ -1,5 +1,6 @@
-import streamlit as st
+pip install -r requirements.txt
 
+import streamlit as st
 
 import pickle
 file1 = open("model.pkl",'rb') 
