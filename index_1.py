@@ -19,9 +19,9 @@ def predict_review(msg):
 
 
 
-# st.write('<p style="font-family:sans-serif; color:Green; font-size: 72px;">Review's</p>')
+st.write('<p style="font-family:sans-serif; color:Green; font-size: 72px;">Review's</p>')
 
-st.write("# Hello World ")
+# st.write("# Hello World ")
 
 message = st.text_area("Message")
 
