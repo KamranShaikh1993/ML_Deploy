@@ -19,11 +19,11 @@ def predict_review(msg):
 
 
 st.write("# :green[Hello World] ")
-st.write("This is :blue[test]")
+message = st.text_area(":blue[Message]")
 
 
 # st.write("# Hello World ")
-message = st.text_area("Message")
+# message = st.text_area("Message")
 
 if st.button("Predict"):
     result = predict_review(message)
