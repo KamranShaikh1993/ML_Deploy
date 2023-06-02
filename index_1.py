@@ -33,6 +33,6 @@ if st.button("Predict"):
 
 new_title = '<p style="font-family:sans-serif; color:Green; font-size: 72px;">New image</p>'
 st.markdown(new_title, unsafe_allow_html=True)
-st.image(message, channels="BGR")
+st.result(message, channels="BGR")
 
 #----------------------------
