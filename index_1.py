@@ -10,7 +10,7 @@ file2 = open("CountVector.pkl",'rb')
 model = pickle.load(file1)  
 cv = pickle.load(file2)  
 
-msg = 'It was amazing. I liked it a lot'
+# msg = 'It was amazing. I liked it a lot'
 
 def predict_review(msg):   
     msg_cv = cv.transform([msg])
