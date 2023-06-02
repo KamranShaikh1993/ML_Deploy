@@ -5,19 +5,6 @@ import streamlit as st
 
 import pickle
 
-
-# Font
-#--------------------------
-
-primaryColor="#FF4B4B"
-backgroundColor="#0E1117"
-secondaryBackgroundColor="#262730"
-textColor="red"
-font="sans serif"
-
-#----------------------------
-
-
 file1 = open("model.pkl",'rb') 
 file2 = open("CountVector.pkl",'rb')
 model = pickle.load(file1)  
@@ -38,3 +25,14 @@ message = st.text_area("Message")
 if st.button("Predict"):
     result = predict_review(message)
     st.write(result)
+    
+    
+    
+    # Font
+#--------------------------
+
+new_title = '<p style="font-family:sans-serif; color:Green; font-size: 42px;">New image</p>'
+st.markdown(new_title, unsafe_allow_html=True)
+st.image(message, channels="BGR")
+
+#----------------------------
