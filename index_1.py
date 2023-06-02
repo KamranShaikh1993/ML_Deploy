@@ -6,12 +6,16 @@ import streamlit as st
 import pickle
 
 
-primaryColor="green"
+# Font
+#--------------------------
+
+primaryColor="#FF4B4B"
 backgroundColor="#0E1117"
 secondaryBackgroundColor="#262730"
-textColor="#FAFAFA"
+textColor="red"
 font="sans serif"
 
+#----------------------------
 
 
 file1 = open("model.pkl",'rb') 
