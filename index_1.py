@@ -18,8 +18,7 @@ def predict_review(msg):
     return result
 
 
-
-st.write('<p style="font-family:sans-serif; color:Green; font-size: 72px;">Review's</p>')
+st.write("# Hello World ",color:Green)
 
 # st.write("# Hello World ")
 
