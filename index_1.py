@@ -25,7 +25,7 @@ message = st.text_area(":blue[Message]")
 # st.write("# Hello World ")
 # message = st.text_area("Message")
 
-if st.button("Predict"):
+if st.button(":blue[Predict]"):
     result = predict_review(message)
     st.write(result)
     
