@@ -16,7 +16,7 @@ def predict_review(msg):
     msg_cv = cv.transform([msg])
     result = model.predict(msg_cv)[0]
     
-    st.text_area(:blue[msg])
+    st.text_area(f':blue[{msg}]')
     return result
 
 
