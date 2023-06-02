@@ -18,7 +18,7 @@ def predict_review(msg):
     return result
 
 
-st.write(" :green[# Hello World] ")
+st.write("# :green[Hello World] ")
 st.write("This is :blue[test]")
 
 
