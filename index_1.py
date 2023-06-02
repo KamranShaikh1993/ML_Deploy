@@ -4,6 +4,16 @@
 import streamlit as st
 
 import pickle
+
+[theme]
+primaryColor="green"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#262730"
+textColor="#FAFAFA"
+font="sans serif"
+
+
+
 file1 = open("model.pkl",'rb') 
 file2 = open("CountVector.pkl",'rb')
 model = pickle.load(file1)  
