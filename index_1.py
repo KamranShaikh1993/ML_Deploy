@@ -24,8 +24,11 @@ st.text("Type in a review and it tells whether it's a +ve or -ve review. 1(+ve) 
 
 message = st.text_area(":blue[Write your review]")
 
-# Background color for the main content area
-backgroundColor = 'FFFFFF'
+primaryColor="#6eb52f"
+backgroundColor="#f0f0f5"
+secondaryBackgroundColor="#e0e0ef"
+textColor="#262730"
+font="sans serif"
 
 # st.write("# Hello World ")
 # message = st.text_area("Message")
