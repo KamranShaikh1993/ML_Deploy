@@ -23,8 +23,9 @@ st.write("# :green[Sentiment Analysis testing(Prototype)] ")
 st.text("Type in a review and it tells whether it's a +ve or -ve review. 1(+ve) and 0(-ve)")
 
 message = st.text_area(":blue[Write your review]")
-# Color used for almost all text
-textColor = '#FFFFFF'
+
+# Background color for the main content area
+backgroundColor = '#273346'
 
 # st.write("# Hello World ")
 # message = st.text_area("Message")
