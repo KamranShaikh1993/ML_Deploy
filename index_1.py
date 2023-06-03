@@ -8,7 +8,7 @@ import pickle
 file1 = open("model.pkl",'rb') 
 file2 = open("CountVector.pkl",'rb')
 model = pickle.load(file1)  
-cv = pickle.load(file2)  
+cv = pickle.load(file2) 
 
 # msg = 'It was amazing. I liked it a lot'
 
@@ -18,7 +18,10 @@ def predict_review(msg):
     return result
 
 
-st.write("# :green[Hello World] ")
+st.write("# :green[Sentiment Analysis testing(Prototype)] ")
+
+st.text_area(":blue[type in a review and it tells whether it's a +ve or a -ve review.   1(+ve) and 0(-ve)]")
+
 message = st.text_area(":blue[Write your review]")
 
 
