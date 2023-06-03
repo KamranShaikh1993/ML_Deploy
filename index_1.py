@@ -20,7 +20,7 @@ def predict_review(msg):
 
 st.write("# :green[Sentiment Analysis testing(Prototype)] ")
 
-st.text("type in a review and it tells whether it's a +ve or a -ve review.   1(+ve) and 0(-ve)")
+st.text("Type in a review and it tells whether it's a +ve or -ve review. 1(+ve) and 0(-ve)")
 
 message = st.text_area(":blue[Write your review]")
 
